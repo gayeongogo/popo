@@ -1,0 +1,116 @@
+@import './common.scss';
+@import './response.scss';
+
+
+.about{
+    display: flex;
+    align-items: center;
+    .yellowCircle{
+        @include cir;
+        top: 22%;
+        left: 0;
+    }
+    .blueCircle{
+        @include cir;
+        bottom: -15%;
+        left: 35%;
+    }
+    .about-main{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        &-desc{
+            text-align: center;
+            margin-right: 6em;
+            p{
+                font-family: 'NanumSquare';
+                &.desc1{
+                    margin-bottom: 3em;
+                    font-size: 1.7em;
+                    font-weight: 700;
+                    color: $txt3;
+                }
+                &.desc2{
+                    font-size: 1.1em;
+                    color: $txt3;
+                    line-height: 130%;
+                }
+            }
+        }
+        &-info{
+            .infoImg{
+                @include dr-df;
+                width: 26em;
+                height: 26em;
+                background: url(../../../public/img/profile2_ex.png) no-repeat left -5em top 47%/157%;
+                position: relative;
+                transform: rotate(16deg);
+                filter: brightness(1.03);
+                &::before{
+                    background: rgba(0,0,0,0);
+                    transition: 1s;
+                }
+                &:hover{
+                    &::before{
+                        @include dr-df;
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: rgba(0,0,0,0.2);
+                        transition: 1s;
+                    }
+                    .infoDetail{
+                        opacity: 1;
+                        transition: 0.5s;
+                    }
+                }
+                .infoClick{
+                    position: absolute;
+                    bottom: 2em;
+                    right: -2em;
+                    animation: cursor 1s infinite alternate;
+                    @keyframes cursor {
+                        0%{transform: translate(0,0);}
+                        100%{transform: translate(-1em,-1em);}
+                    }
+                }
+                .infoDetail{
+                    position: absolute;
+                    top: 35%;
+                    left: 35%;
+                    transform: rotate(-16deg);
+                    font-size: 1.5em;
+                    line-height: 180%;
+                    color: $white;
+                    opacity: 0;
+                    transition: 0.5s;
+                }
+            }
+            .resume{
+                @include dr-df;
+                display: inline-block;
+                width: 9em;
+                height: 9em;
+                background: $green;
+                transform: rotate(67deg);
+                position: relative;
+                &-text{
+                    font-family: 'NanumSquare';
+                    text-align: center;
+                    position: absolute;
+                    top: 38%;
+                    left: 28%;
+                    transform: rotate(-67deg);
+                    color: $txt6;
+                }
+                
+            }
+            
+        }
+    }
+}

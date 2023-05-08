@@ -1,0 +1,110 @@
+@import './common.scss';
+@import './response.scss';
+
+.section3{
+    position: relative;
+}
+.skill{
+    display: flex;
+    align-items: center;
+    .pinkCircle{
+        @include cir;
+        background: $pink;
+        top: 18%;
+    }
+    .blueCircle{
+        @include cir;
+        bottom: 0;
+        right: -5%;
+    }
+    &-title{
+        font-size: 2em;
+        margin-bottom: 1.2em;
+        text-align: center;
+    }
+    &-area{
+        display: flex;
+        justify-content: space-between;
+        &-main{
+            flex-basis: 47%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .keywords{
+                ul{
+                    text-align: center;
+                    li{
+                        @include box-df;
+                        display: inline-block;
+                        font-size: 20px;
+                        margin-right: 15px;
+                        padding: 5px 25px;
+                        border-radius: 30px;
+                        margin-bottom: 20px;
+                        i{font-size: 12px}
+                    }
+                }
+            }
+            .license{
+                @include box-df;
+                border-radius: 30px;
+                padding: 2em;
+                margin-top: 1.5em;
+                &-title{
+                    display: block;
+                    font-size: 1.7em;
+                    margin-bottom: 10px;
+                }
+                ul{
+                    li{
+                        font-family: 'NanumSquare';
+                        font-size: 17px;
+                        border-bottom: 1px solid $ln-light-gray;
+                        padding: 10px 0;
+                        span{
+                            font-family: inherit;
+                            font-size: 13px;
+                            padding-left: 10px;
+                            color: $txt8;
+                        }
+                    }
+                }
+            }
+            button{display: none;}
+        }
+        &-detail{
+            flex-basis: 47%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+            .card{
+                flex-basis: 47%;
+                @include box-df;
+                padding: 2em;
+                border-radius: 30px;
+                &:nth-child(1){margin-bottom: 30px;}
+                &:nth-child(2){margin-bottom: 30px;}
+                ul{
+                    span{
+                        display: inline-block;
+                        background: $txt4;
+                        color: $white;
+                        font-size: 1.2em;
+                        padding: 5px 20px;
+                        margin-left: -2.5em;
+                        margin-bottom: 1em;
+                    }
+                    li{
+                        font-family: 'NanumSquare';
+                        margin-bottom: 0.5em;
+                        &:last-child{
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

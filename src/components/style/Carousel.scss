@@ -1,0 +1,119 @@
+@import './common.scss';
+@import './response.scss';
+
+.carousel{
+    width: 100%;
+}
+
+.slick-slider{
+    width: 100%;
+    @include box-df;
+    border-radius: 30px;
+    padding: 3em;
+}
+.slick-slide{
+    overflow: hidden;
+}
+
+.slick-dots{
+    position: static;
+    margin-top: 2em;
+    li{
+        margin: 0 10px;
+        button{
+            &:focus::before{
+                opacity: .5;
+                color: $bg-ivory;
+            }
+            &:hover::before{
+                opacity: .5;
+                color: $bg-ivory;
+            }
+            &::before{
+                font-size: 20px;
+                opacity: .5;
+                color: $bg-ivory;
+                text-shadow: 0 4px 6px rgba(0,0,0,0.5);
+            }
+        }
+        &.slick-active{
+            button{
+                &::before{
+                    opacity: 1;
+                    color: $orange;
+                }
+            }
+        }
+    }
+}
+
+.project-cont{
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    .project-image{
+        padding: 3em;
+        img{
+            width: 33em;
+            border-radius: 1em;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+    }
+    .project-desc{
+        width: 100%;
+        color: $txt6;
+        h1{
+            font-size: 1.2em;
+            color: $txt8;
+            margin-bottom: 10px;
+        }
+        h2{
+            font-family: 'NanumSquare';
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 0.8em;
+        }
+        &-skill{
+            ul{
+                margin-bottom: 2.8em;
+                display: flex;
+                flex-wrap: wrap;
+                li{
+                    @include box-df;
+                    display: inline-block;
+                    font-size: 1em;
+                    margin-right: 15px;
+                    margin-bottom: 10px;
+                    padding: 5px 25px;
+                    border-radius: 30px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        &-details{
+            font-family: 'NanumSquare';
+            font-size: 18px;
+            line-height: 130%;
+            margin-bottom: 2em;
+        }
+        &-links{
+            color: $txt4;
+            font-size: 2.8em;
+            i{
+                cursor: pointer;
+                transition: 0.3s;
+                &:last-child{
+                    margin-left: 0.3em;
+                }
+                &:hover{
+                    text-shadow: 0 5px 5px rgba(0,0,0,0.3);
+                    transform: translate(0, -3px);
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+    
+}

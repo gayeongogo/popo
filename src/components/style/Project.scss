@@ -1,0 +1,21 @@
+@import './common.scss';
+@import './response.scss';
+
+.project{
+    display: flex;
+    align-items: center;
+    .bg{
+        .yellowCircle{
+            @include cir;
+            top: 15%;
+            right: 0;
+        }
+        .pinkCircle{
+            @include cir;
+            bottom: 6%;
+            left: -6%;
+        }
+        
+    }
+    
+}

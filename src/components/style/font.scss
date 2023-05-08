@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'SDSwaggerTTF';
+    src:
+        url('./font/SDSwaggerTTF.ttf') format('ttf'),
+        url('./font/SDSwaggerTTF.eot') format('eot'),
+        url('./font/SDSwaggerTTF.woff') format('woff'),
+        url('./font/SDSwaggerTTF.woff2') format('woff2');
+};
+
+@font-face {
+    font-family: 'VanguardCF';
+    src:
+        url('./font/VanguardCF-Bold.ttf') format('truetype'),
+        url('./font/VanguardCF-Bold.eot') format('eot'),
+        url('./font/VanguardCF-Bold.svg') format('svg'),
+        url('./font/VanguardCF-Bold.woff') format('woff'),
+        url('./font/VanguardCF-Bold.woff2') format('woff2'); 
+};
+
+@font-face {
+    font-family: 'Sandiago';
+    src: url('./font/Sandiago.ttf') format('ttf');
+};
+
+@font-face {
+    font-family: 'S_CoreDream_Medium';
+    src: url('./font/S-CoreDream-5Medium.eot') format('embedded-opentype'),
+            url('./font/S-CoreDream-5Medium.svg') format('svg'),
+            url('./font/S-CoreDream-5Medium.ttf') format('truetype'),
+            url('./font/S-CoreDream-5Medium.woff') format('woff'),
+            url('./font/S-CoreDream-5Medium.woff2') format('woff2');
+};
+
+@font-face {
+    font-family: 'S_CoreDream_Regular';
+    src: url('./font/S-CoreDream-4Regular.eot') format('embedded-opentype'),
+            url('./font/S-CoreDream-4Regular.svg#S-CoreDream-4Regular') format('svg'),
+            url('./font/S-CoreDream-4Regular.ttf') format('truetype'),
+            url('./font/S-CoreDream-4Regular.woff') format('woff'),
+            url('./font/S-CoreDream-4Regular.woff2') format('woff2');
+}

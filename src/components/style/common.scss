@@ -1,0 +1,94 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&display=swap');
+
+$bg-ivory: #FFFDF6;
+$pink: #FFDCDC;
+$blue: #95BFD4;
+$green: #D5E8E2;
+$white: #FFFFFF;
+$yellow: #FFD600;
+$orange: #FF6B00;
+$txt3: #333333;
+$txt4: #444444;
+$txt5: #555555;
+$txt6: #666666;
+$txt8: #888888;
+$ln-gray: #b9b9b9;
+$ln-light-gray: #ebebeb;
+
+.bg-or{
+    background: $orange;
+}
+.bg-ye{
+    background: $yellow;
+}
+.bg-bl{
+    background: $blue;
+}
+.bg-pi{
+    background: $pink; 
+}
+
+@mixin cir {
+    border-radius: 50%;
+    width: 16.2em;
+    height: 16.2em;
+    position: absolute;
+    filter: blur(70px);
+    z-index: -1;
+}
+
+@mixin dr-df {
+    border-radius: 31% 69% 37% 63% / 22% 49% 51% 78% ;
+}
+
+@mixin box-df {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* full page */
+.fp-tableCell{
+    vertical-align: baseline;
+}
+
+
+
+/* 공통요소 */
+.body{
+    letter-spacing: -0.05em;
+    box-sizing: border-box;
+}
+.element{
+    height: 100%;
+}
+.section{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: $bg-ivory;
+}
+.container{
+    max-width: 1280px;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 80px;
+    position: relative;
+    z-index: 1;
+    
+}
+.btn-black{
+    display: inline-block;
+    background: $txt4;
+    padding: 10px 30px;
+    color: $white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+    &:hover{
+        box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+        transform: translate(0, -3px);
+        transition: 0.3s;
+    }
+}
