@@ -7,7 +7,7 @@ import PdfPreview from './routes/PdfPreview';
 
 const Router = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route path="/" element={<Home />}/>
                 <Route path="/PdfPreview" element={<PdfPreview />} />
