@@ -1,4 +1,4 @@
-import {FullPage,Slide} from "https://cdn.skypack.dev/react-full-page@0.1.12";
+import {FullPage,Slide} from 'react-full-page';
 import Main from './Main';
 import Header from './Header';
 import About from './About';
