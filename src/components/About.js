@@ -32,7 +32,7 @@ const About = () => {
 								<br/>
 								<i className="fas fa-thumbtack"></i> anyang unv.
 							</p>
-							<img src="/img/click.png" alt="infoClick" className='infoClick'/>
+							<img src={process.env.PUBLIC_URL + '/img/click.png'} alt="infoClick" className='infoClick'/>
 						</div>
 						<Link to="/PdfPreview" className="resume">
 							<span className="resume-text">

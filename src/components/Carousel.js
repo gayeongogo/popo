@@ -35,7 +35,7 @@ const Carousel = () => {
             <Slider {...settings}>
                 <div className="project-cont">
                     <div className="project-image">
-                        <img src="/img/project1.png" alt="project1" />
+                        <img src={process.env.PUBLIC_URL + '/img/project1.png'} alt="project1" />
                     </div>
                     <div className="project-desc">
                         <h1 className="project-desc-date">December 2022</h1>
@@ -59,7 +59,7 @@ const Carousel = () => {
                 </div>
                 <div className="project-cont">
                     <div className="project-image">
-                        <img src="/img/project2.png" alt="project1" />
+                        <img src={process.env.PUBLIC_URL + '/img/project2.png'} alt="project1" />
                     </div>
                     <div className="project-desc">
                         <h1 className="project-desc-date">December 2022</h1>
@@ -83,7 +83,7 @@ const Carousel = () => {
                 </div>
                 <div className="project-cont">
                     <div className="project-image">
-                        <img src="/img/project3.png" alt="project3" />
+                        <img src={process.env.PUBLIC_URL + '/img/project3.png'} alt="project3" />
                     </div>
                     <div className="project-desc">
                         <h1 className="project-desc-date">Jenuary 2023</h1>
@@ -107,7 +107,7 @@ const Carousel = () => {
                 </div>
                 <div className="project-cont">
                     <div className="project-image">
-                        <img src="/img/project4.png" alt="project4" />
+                        <img src={process.env.PUBLIC_URL + '/img/project4.png'} alt="project4" />
                     </div>
                     <div className="project-desc">
                         <h1 className="project-desc-date">January 2023</h1>
@@ -130,7 +130,7 @@ const Carousel = () => {
                 </div>
                 <div className="project-cont">
                     <div className="project-image">
-                        <img src="/img/project5.png" alt="project5" />
+                        <img src={process.env.PUBLIC_URL + '/img/project5.png'} alt="project5" />
                     </div>
                     <div className="project-desc">
                         <h1 className="project-desc-date">Febuary 2023</h1>
@@ -153,7 +153,7 @@ const Carousel = () => {
                 </div>
                 <div className="project-cont">
                     <div className="project-image">
-                        <img src="/img/project6.png" alt="project6" />
+                        <img src={process.env.PUBLIC_URL + '/img/project6.png'} alt="project6" />
                     </div>
                     <div className="project-desc">
                         <h1 className="project-desc-date">Febuary 2023</h1>
@@ -177,7 +177,7 @@ const Carousel = () => {
                 
                 <div className="project-cont">
                     <div className="project-image">
-                        <img src="/img/project7.png" alt="project7" />
+                        <img src={process.env.PUBLIC_URL + '/img/project7.png'} alt="project7" />
                     </div>
                     <div className="project-desc">
                         <h1 className="project-desc-date">March 2023 ~ing</h1>
