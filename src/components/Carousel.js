@@ -49,7 +49,7 @@ const Carousel = () => {
                             </ul>
                         </div>
                         <div className="project-desc-details">
-                            웹표준과 웹 접근성을 중시한 대검찰청 클론코딩 프로젝트 입니다. html과 css를 사용하여 화면을 구성했으며, jqury 슬라이드를 제작하여 적용시킨 프로젝트입니다. 메인페이지와 서브페이지 총 6페이지를 제작했습니다.
+                            웹표준과 웹 접근성을 중시한 대검찰청 클론코딩 프로젝트입니다. html과 css를 사용하여 화면을 구성했으며, jqury 슬라이드를 제작 구현했습니다. 메인페이지와 서브페이지 총 6페이지로 구성되었습니다.
                         </div>
                         <div className="project-desc-links">
                             <i onClick={() => {window.open(githubURL1)}} className="fab fa-github"></i>
@@ -73,7 +73,7 @@ const Carousel = () => {
                             </ul>
                         </div>
                         <div className="project-desc-details">
-                            망고보드 반응형 클론코딩 프로젝트입니다. html과 css를 사용하여 화면을 구성했으며, jqury 슬라이드를 제작하여 적용시킨 프로젝트입니다.
+                            메인페이지 클론코딩과 더불어 반응형 페이지로 리뉴얼하여 제작했습니다. 미디어쿼리를 활용하여 모바일 환경에서 이용할 수 있는 모바일 메뉴바를 구현하고, swiper 라이브러리를 활용하여 슬라이드를 구현했습니다.
                         </div>
                         <div className="project-desc-links">
                             <i onClick={() => {window.open(githubURL2)}} className="fab fa-github"></i>
@@ -120,7 +120,7 @@ const Carousel = () => {
                             </ul>
                         </div>
                         <div className="project-desc-details">
-                            리액트를 사용하여 제작한 영화 웹사이트입니다. 라우터로 각 페이지를 구분하였고 영화 API를 이용하여 영화의 정보를 보여주는 페이지와 좋아하는 영화를 기록할 수 있는 페이지를 각각 제작했습니다.
+                            리액트를 사용하여 제작한 영화 웹사이트입니다. 라우터로 각 페이지를 구분하였고 영화 API를 이용하여 영화정보 페이지, 좋아하는 영화를 기록할 수 있는 페이지를 각각 제작했습니다.
                         </div>
                         <div className="project-desc-links">
                             <i onClick={() => {window.open(githubURL4)}} className="fab fa-github"></i>
@@ -143,7 +143,7 @@ const Carousel = () => {
                             </ul>
                         </div>
                         <div className="project-desc-details">
-                            리액트를 활용한 마켓컬리 회원가입 페이지를입니다. 유효성 검사, 아이디 및 비밀번호 중복확인, 주소검색, 약관동의 등의 조건을 수행하고 해당 사항들이 모두 충족되어야 가입 될 수 있도록 구현했습니다. 
+                            리액트를 활용한 마켓컬리 회원가입 페이지입니다. 유효성 검사, 아이디 및 비밀번호 중복확인, 주소검색, 약관동의 등의 조건을 수행하고 해당 사항들이 모두 충족되어야 가입 될 수 있도록 구현했습니다.
                         </div>
                         <div className="project-desc-links">
                             <i onClick={() => {window.open(githubURL5)}} className="fab fa-github"></i>
@@ -166,7 +166,7 @@ const Carousel = () => {
                             </ul>
                         </div>
                         <div className="project-desc-details">
-                            자바스크립트를 이용한 레시피 검색 사이트입니다. 레시피 api를 통해 각종 레시피를 fetch로 불러오며, 검색을 통해 원하는 레시피를 찾을 수 있도록 구현하였습니다.
+                            자바스크립트를 이용한 레시피 검색 사이트입니다. 레시피 api를 통해 각종 레시피를 fetch로 불러오며, 검색을 통해 원하는 레시피를 찾을 수 있도록 제작하였습니다.
                         </div>
                         <div className="project-desc-links">
                             <i onClick={() => {window.open(githubURL6)}} className="fab fa-github"></i>
@@ -190,7 +190,7 @@ const Carousel = () => {
                             </ul>
                         </div>
                         <div className="project-desc-details">
-                            리액트를 활용한 개인 포트폴리오입니다.
+                            리액트를 활용한 개인 포트폴리오입니다. 반응형 페이지로 제작하였으며 풀페이지 스크린, 스크롤 이벤트 등을 리액트 라이브러리를 활용하여 구현하였습니다.
                         </div>
                         <div className="project-desc-links">
                             <i onClick={() => {window.open(githubURL7)}} className="fab fa-github"></i>
