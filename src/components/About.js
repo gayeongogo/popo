@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import './style/About.scss';
 
 const About = () => {
+
+	const resumeURL = "https://drive.google.com/file/d/1bLxE0JHoht2U4K8ZjKKTky2ePNuwgbbk/view?usp=share_link";
+
     return (
         <div id="about" className="section section2">
 			<div className="about container">
@@ -34,7 +37,7 @@ const About = () => {
 							</p>
 							<img src={process.env.PUBLIC_URL + '/img/click.png'} alt="infoClick" className='infoClick'/>
 						</div>
-						<Link to="/PdfPreview" className="resume">
+						<Link to="/" className="resume" onClick={() => {window.open(resumeURL)}}>
 							<span className="resume-text">
 								입사지원서
 								<br/>
