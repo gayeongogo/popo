@@ -4,7 +4,7 @@ import './style/About.scss';
 
 const About = () => {
 
-	const resumeURL = "https://drive.google.com/file/d/1bLxE0JHoht2U4K8ZjKKTky2ePNuwgbbk/view?usp=share_link";
+	const resumeURL = "https://drive.google.com/file/d/1M_PFUE5KjR_k7n4magN-Vc4JXl5JvFTO/view?usp=share_link";
 
     return (
         <div id="about" className="section section2">
