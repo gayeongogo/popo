@@ -49,7 +49,7 @@ const Carousel = () => {
                             </ul>
                         </div>
                         <div className="project-desc-details">
-                            웹표준과 웹 접근성을 중시한 대검찰청 클론코딩 프로젝트입니다. html과 css를 사용하여 화면을 구성했으며, jqury 슬라이드를 제작 구현했습니다. 메인페이지와 서브페이지 총 6페이지로 구성되었습니다.
+                            웹표준과 웹 접근성을 중시한 대검찰청 클론코딩 프로젝트입니다. html과 css를 사용하여 화면을 구성했으며, jqury 슬라이드를 제작 구현했습니다. 메인페이지와 서브페이지 총 7페이지로 구성되었습니다.
                         </div>
                         <div className="project-desc-links">
                             <i onClick={() => {window.open(githubURL1)}} className="fab fa-github"></i>
