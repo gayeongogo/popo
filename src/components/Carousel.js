@@ -115,7 +115,6 @@ const Carousel = () => {
                         <div className="project-desc-skill">
                             <ul>
                                 <li>REACT</li>
-                                <li>HTML</li>
                                 <li>SCSS</li>
                             </ul>
                         </div>
@@ -138,7 +137,6 @@ const Carousel = () => {
                         <div className="project-desc-skill">
                             <ul>
                                 <li>REACT</li>
-                                <li>HTML</li>
                                 <li>SCSS</li>
                             </ul>
                         </div>
@@ -161,7 +159,7 @@ const Carousel = () => {
                         <div className="project-desc-skill">
                             <ul>
                                 <li>HTML</li>
-                                <li>CSS</li>
+                                <li>SCSS</li>
                                 <li>JAVASCRIPT</li>
                             </ul>
                         </div>
@@ -185,7 +183,6 @@ const Carousel = () => {
                         <div className="project-desc-skill">
                             <ul>
                                 <li>REACT</li>
-                                <li>HTML</li>
                                 <li>SCSS</li>
                             </ul>
                         </div>
